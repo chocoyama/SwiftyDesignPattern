@@ -38,6 +38,7 @@
 		AD51CEFF1B52AC2000F0FB27 /* SwiftyDesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyDesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD51CF041B52AC2000F0FB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD51CF051B52AC2000F0FB27 /* SwiftyDesignPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyDesignPatternTests.swift; sourceTree = "<group>"; };
+		AD51CF101B52AC3B00F0FB27 /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		AD51CEE91B52AC2000F0FB27 /* SwiftyDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				AD51CF0F1B52AC2800F0FB27 /* Builder */,
 				AD51CEEC1B52AC2000F0FB27 /* AppDelegate.swift */,
 				AD51CEF11B52AC2000F0FB27 /* ViewController.swift */,
 				AD51CEF31B52AC2000F0FB27 /* Main.storyboard */,
@@ -113,6 +115,14 @@
 				AD51CF041B52AC2000F0FB27 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD51CF0F1B52AC2800F0FB27 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				AD51CF101B52AC3B00F0FB27 /* Builder.playground */,
+			);
+			name = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
