@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		AD1A743E1B5A448E0040CBBB /* TemplateMethod.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TemplateMethod.playground; sourceTree = "<group>"; };
+		AD1A74401B5A4C780040CBBB /* Singleton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Singleton.playground; sourceTree = "<group>"; };
 		AD51CEE71B52AC2000F0FB27 /* SwiftyDesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyDesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD51CEEB1B52AC2000F0FB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD51CEEC1B52AC2000F0FB27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +72,14 @@
 			name = TemplateMethod;
 			sourceTree = "<group>";
 		};
+		AD1A743F1B5A4C5C0040CBBB /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				AD1A74401B5A4C780040CBBB /* Singleton.playground */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
 		AD51CEDE1B52AC2000F0FB27 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +103,9 @@
 			children = (
 				AD51CF131B5A2B5600F0FB27 /* Iterator */,
 				AD51CF151B5A34DB00F0FB27 /* Adapter */,
-				AD51CF111B5A0C2200F0FB27 /* FactoryMethod */,
 				AD1A743D1B5A445D0040CBBB /* TemplateMethod */,
+				AD51CF111B5A0C2200F0FB27 /* FactoryMethod */,
+				AD1A743F1B5A4C5C0040CBBB /* Singleton */,
 				AD51CF0F1B52AC2800F0FB27 /* Builder */,
 				AD51CEEC1B52AC2000F0FB27 /* AppDelegate.swift */,
 				AD51CEF11B52AC2000F0FB27 /* ViewController.swift */,
