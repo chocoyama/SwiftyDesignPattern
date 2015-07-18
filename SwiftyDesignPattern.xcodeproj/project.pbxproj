@@ -39,6 +39,9 @@
 		AD51CF041B52AC2000F0FB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD51CF051B52AC2000F0FB27 /* SwiftyDesignPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyDesignPatternTests.swift; sourceTree = "<group>"; };
 		AD51CF101B52AC3B00F0FB27 /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; };
+		AD51CF121B5A0C3300F0FB27 /* Factory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Factory.playground; sourceTree = "<group>"; };
+		AD51CF141B5A2B6A00F0FB27 /* Iterator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Iterator.playground; sourceTree = "<group>"; };
+		AD51CF161B5A34EF00F0FB27 /* Adapter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Adapter.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +83,14 @@
 		AD51CEE91B52AC2000F0FB27 /* SwiftyDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				AD51CF131B5A2B5600F0FB27 /* Iterator */,
+				AD51CF151B5A34DB00F0FB27 /* Adapter */,
+				AD51CF111B5A0C2200F0FB27 /* Factory */,
 				AD51CF0F1B52AC2800F0FB27 /* Builder */,
 				AD51CEEC1B52AC2000F0FB27 /* AppDelegate.swift */,
 				AD51CEF11B52AC2000F0FB27 /* ViewController.swift */,
 				AD51CEF31B52AC2000F0FB27 /* Main.storyboard */,
 				AD51CEF61B52AC2000F0FB27 /* Images.xcassets */,
-				AD51CEF81B52AC2000F0FB27 /* LaunchScreen.xib */,
-				AD51CEEE1B52AC2000F0FB27 /* SwiftyDesignPattern.xcdatamodeld */,
 				AD51CEEA1B52AC2000F0FB27 /* Supporting Files */,
 			);
 			path = SwiftyDesignPattern;
@@ -95,6 +99,8 @@
 		AD51CEEA1B52AC2000F0FB27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AD51CEF81B52AC2000F0FB27 /* LaunchScreen.xib */,
+				AD51CEEE1B52AC2000F0FB27 /* SwiftyDesignPattern.xcdatamodeld */,
 				AD51CEEB1B52AC2000F0FB27 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -123,6 +129,30 @@
 				AD51CF101B52AC3B00F0FB27 /* Builder.playground */,
 			);
 			name = Builder;
+			sourceTree = "<group>";
+		};
+		AD51CF111B5A0C2200F0FB27 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				AD51CF121B5A0C3300F0FB27 /* Factory.playground */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		AD51CF131B5A2B5600F0FB27 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				AD51CF141B5A2B6A00F0FB27 /* Iterator.playground */,
+			);
+			name = Iterator;
+			sourceTree = "<group>";
+		};
+		AD51CF151B5A34DB00F0FB27 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				AD51CF161B5A34EF00F0FB27 /* Adapter.playground */,
+			);
+			name = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +199,8 @@
 		AD51CEDF1B52AC2000F0FB27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Takuya Yokoyama";
 				TargetAttributes = {
@@ -423,6 +455,7 @@
 				AD51CF0B1B52AC2000F0FB27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD51CF0C1B52AC2000F0FB27 /* Build configuration list for PBXNativeTarget "SwiftyDesignPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +464,7 @@
 				AD51CF0E1B52AC2000F0FB27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

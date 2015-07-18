@@ -120,6 +120,7 @@ class Controller: UIViewController {
         let director = Director(builder: textBuilder)
         director.construct()
         let result = textBuilder.getResult()
+        print(result)
     }
 }
 
