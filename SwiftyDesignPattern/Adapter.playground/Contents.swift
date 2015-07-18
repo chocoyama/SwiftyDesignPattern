@@ -1,7 +1,6 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-
 /*:
 # Adapterパターン
 * 「すでに提供されているもの」と「必要なもの」の間のズレを埋めるデザインパターン
@@ -12,7 +11,6 @@ import UIKit
 *
 * バグのないソースコードを再利用したいときや、古い版と新しい版を共存させたい時などに使える
 */
-
 
 /*:
 ## Target(Print)
@@ -101,4 +99,6 @@ class Client: UIViewController {
         p.printStrong()
     }
 }
+
+
 

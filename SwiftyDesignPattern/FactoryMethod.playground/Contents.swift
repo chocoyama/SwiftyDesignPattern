@@ -60,7 +60,7 @@ class IDCard: Product {
 }
 
 /*:
-## ConcreteCreator(IDCardFactory)
+## ConcreteFactory(IDCardFactory)
 */
 class IDCardFactory: Factory {
     private var owners = [String]()

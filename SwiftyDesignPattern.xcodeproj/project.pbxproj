@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD1A743E1B5A448E0040CBBB /* TemplateMethod.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TemplateMethod.playground; sourceTree = "<group>"; };
 		AD51CEE71B52AC2000F0FB27 /* SwiftyDesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyDesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD51CEEB1B52AC2000F0FB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD51CEEC1B52AC2000F0FB27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +40,7 @@
 		AD51CF041B52AC2000F0FB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD51CF051B52AC2000F0FB27 /* SwiftyDesignPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyDesignPatternTests.swift; sourceTree = "<group>"; };
 		AD51CF101B52AC3B00F0FB27 /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; };
-		AD51CF121B5A0C3300F0FB27 /* Factory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Factory.playground; sourceTree = "<group>"; };
+		AD51CF121B5A0C3300F0FB27 /* FactoryMethod.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FactoryMethod.playground; sourceTree = "<group>"; };
 		AD51CF141B5A2B6A00F0FB27 /* Iterator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Iterator.playground; sourceTree = "<group>"; };
 		AD51CF161B5A34EF00F0FB27 /* Adapter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Adapter.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD1A743D1B5A445D0040CBBB /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				AD1A743E1B5A448E0040CBBB /* TemplateMethod.playground */,
+			);
+			name = TemplateMethod;
+			sourceTree = "<group>";
+		};
 		AD51CEDE1B52AC2000F0FB27 = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +94,8 @@
 			children = (
 				AD51CF131B5A2B5600F0FB27 /* Iterator */,
 				AD51CF151B5A34DB00F0FB27 /* Adapter */,
-				AD51CF111B5A0C2200F0FB27 /* Factory */,
+				AD51CF111B5A0C2200F0FB27 /* FactoryMethod */,
+				AD1A743D1B5A445D0040CBBB /* TemplateMethod */,
 				AD51CF0F1B52AC2800F0FB27 /* Builder */,
 				AD51CEEC1B52AC2000F0FB27 /* AppDelegate.swift */,
 				AD51CEF11B52AC2000F0FB27 /* ViewController.swift */,
@@ -131,12 +141,12 @@
 			name = Builder;
 			sourceTree = "<group>";
 		};
-		AD51CF111B5A0C2200F0FB27 /* Factory */ = {
+		AD51CF111B5A0C2200F0FB27 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
-				AD51CF121B5A0C3300F0FB27 /* Factory.playground */,
+				AD51CF121B5A0C3300F0FB27 /* FactoryMethod.playground */,
 			);
-			name = Factory;
+			name = FactoryMethod;
 			sourceTree = "<group>";
 		};
 		AD51CF131B5A2B5600F0FB27 /* Iterator */ = {
@@ -201,7 +211,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Takuya Yokoyama";
 				TargetAttributes = {
 					AD51CEE61B52AC2000F0FB27 = {
@@ -322,6 +332,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -388,6 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftyDesignPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Takuya-Yokoyama.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -398,6 +410,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftyDesignPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Takuya-Yokoyama.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +429,7 @@
 				);
 				INFOPLIST_FILE = SwiftyDesignPatternTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Takuya-Yokoyama.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyDesignPattern.app/SwiftyDesignPattern";
 			};
@@ -431,6 +445,7 @@
 				);
 				INFOPLIST_FILE = SwiftyDesignPatternTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Takuya-Yokoyama.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyDesignPattern.app/SwiftyDesignPattern";
 			};
