@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		800F2EB51C0BF6C70039C8F5 /* AbstractFactory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AbstractFactory.playground; sourceTree = "<group>"; };
+		8012F8B01C0D4D1A006CBBF8 /* Bridge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Bridge.playground; sourceTree = "<group>"; };
 		8031902E1B6270D80094A0A3 /* State.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = State.playground; sourceTree = "<group>"; };
 		806D019D1BE06AD100614179 /* Mediator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Mediator.playground; sourceTree = "<group>"; };
 		AD1A743E1B5A448E0040CBBB /* TemplateMethod.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TemplateMethod.playground; sourceTree = "<group>"; };
@@ -74,6 +75,14 @@
 				800F2EB51C0BF6C70039C8F5 /* AbstractFactory.playground */,
 			);
 			name = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		8012F8AE1C0D4CBC006CBBF8 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				8012F8B01C0D4D1A006CBBF8 /* Bridge.playground */,
+			);
+			name = Bridge;
 			sourceTree = "<group>";
 		};
 		8031902C1B62707D0094A0A3 /* State */ = {
@@ -145,6 +154,7 @@
 				AD1A74411B5A4EFC0040CBBB /* Prototype */,
 				AD51CF0F1B52AC2800F0FB27 /* Builder */,
 				800F2EB41C0BF5560039C8F5 /* AbstractFactory */,
+				8012F8AE1C0D4CBC006CBBF8 /* Bridge */,
 				8031902C1B62707D0094A0A3 /* State */,
 				806D019C1BE06AA600614179 /* Mediator */,
 				AD51CEEC1B52AC2000F0FB27 /* AppDelegate.swift */,
