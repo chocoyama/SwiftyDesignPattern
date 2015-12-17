@@ -30,6 +30,7 @@
 		800F2EB51C0BF6C70039C8F5 /* AbstractFactory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AbstractFactory.playground; sourceTree = "<group>"; };
 		8012F8B01C0D4D1A006CBBF8 /* Bridge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Bridge.playground; sourceTree = "<group>"; };
 		8017A5A61C1A78D900D326BD /* Decorator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Decorator.playground; sourceTree = "<group>"; };
+		801BD6E31C227BC500885C09 /* Visitor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Visitor.playground; sourceTree = "<group>"; };
 		80212BB51C1668E2006CB7D4 /* Composite.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Composite.playground; sourceTree = "<group>"; };
 		8031902E1B6270D80094A0A3 /* State.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = State.playground; sourceTree = "<group>"; };
 		804D567D1C152D88000D8DAB /* Strategy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Strategy.playground; sourceTree = "<group>"; };
@@ -94,6 +95,14 @@
 				8017A5A61C1A78D900D326BD /* Decorator.playground */,
 			);
 			name = Decorator;
+			sourceTree = "<group>";
+		};
+		801BD6E21C227BA200885C09 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				801BD6E31C227BC500885C09 /* Visitor.playground */,
+			);
+			name = Visitor;
 			sourceTree = "<group>";
 		};
 		80212BB41C1668C6006CB7D4 /* Composite */ = {
@@ -185,6 +194,7 @@
 				804D567C1C152D5D000D8DAB /* Strategy */,
 				80212BB41C1668C6006CB7D4 /* Composite */,
 				8017A5A51C1A784800D326BD /* Decorator */,
+				801BD6E21C227BA200885C09 /* Visitor */,
 				8031902C1B62707D0094A0A3 /* State */,
 				806D019C1BE06AA600614179 /* Mediator */,
 				AD51CEEC1B52AC2000F0FB27 /* AppDelegate.swift */,
